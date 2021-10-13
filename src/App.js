@@ -1,19 +1,12 @@
-import { Typography } from '@mui/material';
 import React from 'react';
-import Logo from '../Images/Logo.svg';
+import TopBar from './Components/TopBar.component';
+import LandingPage from './Pages/LandingPage/LandingPage.component';
 
 const App = () => {
   return (
     <div>
-      <div className='TopBar'>
-        <div>
-          <img src={Logo} alt='LS' />
-          <Typography>Lemlem School</Typography>
-        </div>
-      </div>
-      <div className='LandingPage'>
-
-      </div>
+      <TopBar />
+      <LandingPage />
     </div>
   )
 }

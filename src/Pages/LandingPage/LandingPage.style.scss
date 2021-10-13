@@ -1,0 +1,39 @@
+.LandingPage {
+    position: absolute;
+    margin-top: 10ch;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2ch;
+    width: 100%;
+    .HeroImageContainer {
+        height: 80vh;
+        background-image: url('../../Images/self.jpg');
+        background-position: -300px;
+        border-bottom-right-radius: 5%;
+        border-top-right-radius: 50%;
+        animation: smallMovement 60s linear infinite both;
+    }
+    .SloganContainer{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        h1{
+            color: #89C9BB;
+            font-family: Montserrat;
+            font-size: 10ch;
+            margin-left: 2ch;
+        }
+    }
+}
+
+@keyframes smallMovement {
+    0% {
+        background-position: -100px 5px;
+    }
+    50% {
+        background-position: -500px -50px;
+    }
+    100% {
+        background-position: -100px 5px;
+    }
+}

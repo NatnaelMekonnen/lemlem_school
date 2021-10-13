@@ -1,0 +1,36 @@
+.TopBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    .LogoContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1ch;
+        img {
+            width: 7ch;
+        }
+        h2 {
+            font-family: Montserrat;
+            color: #89C9BB;
+        }
+    }
+    .NavMenu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        width: 60%;
+        justify-self: end;
+        padding-right: 2ch;
+         :nth-child(n) {
+            font-weight: bold;
+            justify-self: center;
+            &:hover {
+                border-bottom: solid #89C9BB;
+            }
+        }
+    }
+}
