@@ -9,8 +9,14 @@
     .SocialIcons {
         display: flex;
         gap: 2ch;
+         :nth-child(1) {
+            &:hover {
+                color: #0088cc;
+                transform: scale(1.05);
+            }
+        }
     }
-    .PhoneInfo{
+    .PhoneInfo {
         display: flex;
         gap: 1ch;
     }

@@ -14,7 +14,7 @@ const App = () => {
       <MissionPage />
       <NewsPage />
       <ContactUsPage />
-      <Footer />
+      <Footer/>
     </div>
   )
 }
