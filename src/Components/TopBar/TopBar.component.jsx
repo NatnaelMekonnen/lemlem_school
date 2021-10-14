@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import Logo from '../Images/Logo.svg';
+import Logo from '../../Images/Logo.svg';
 import './TopBar.style.scss';
 
 const TopBar = () => {
@@ -13,7 +13,7 @@ const TopBar = () => {
             <div className='NavMenu'>
                 <Typography>Home</Typography>
                 <Typography>News</Typography>
-                <Typography>Contact Us</Typography>
+                <Typography noWrap>Contact Us</Typography>
             </div>
         </div>
     )

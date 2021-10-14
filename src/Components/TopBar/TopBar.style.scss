@@ -5,6 +5,7 @@
     position: fixed;
     z-index: 10;
     background-color: white;
+    margin-top: 0;
     .LogoContainer {
         display: flex;
         flex-direction: row;
@@ -26,8 +27,10 @@
         justify-self: end;
         padding-right: 2ch;
          :nth-child(n) {
+            cursor: pointer;
             font-weight: bold;
             justify-self: center;
+            color: rgb(51, 51, 51);
             &:hover {
                 border-bottom: solid #89C9BB;
             }

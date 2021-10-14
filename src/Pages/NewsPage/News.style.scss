@@ -1,0 +1,19 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+.NewsPage {
+    padding-top: 2ch;
+    padding-bottom: 5ch;
+    height: 90vh;
+    background-color: #89c9bb3b;
+    .TitleHolder {
+        h2 {
+            color: #89c9bb;
+            text-align: center;
+            font-size: xx-large;
+        }
+    }
+    .NewsImageHolder{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

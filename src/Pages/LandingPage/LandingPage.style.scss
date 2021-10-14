@@ -1,16 +1,15 @@
 .LandingPage {
-    position: absolute;
-    margin-top: 10ch;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2ch;
+    padding-top: 10ch;
     width: 100%;
     .HeroImageContainer {
-        height: 80vh;
+        height: 90vh;
         background-image: url('../../Images/self.jpg');
         background-position: -300px;
-        border-bottom-right-radius: 5%;
-        border-top-right-radius: 50%;
+        mask-image: url('../../Images/Asset 1.svg');
+        mask-repeat: no-repeat;
         animation: smallMovement 60s linear infinite both;
     }
     .SloganContainer{
@@ -20,7 +19,7 @@
         h1{
             color: #89C9BB;
             font-family: Montserrat;
-            font-size: 10ch;
+            font-size: 5vw;
             margin-left: 2ch;
         }
     }

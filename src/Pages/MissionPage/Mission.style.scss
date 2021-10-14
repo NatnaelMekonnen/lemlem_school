@@ -1,0 +1,22 @@
+.MissionPage {
+    padding-top: 10ch;
+    .Mission {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 40vh;
+        .Tittle {
+            color: #89C9BB;
+            align-self: center;
+            justify-self: center;
+            h2{
+                font-size: xx-large;
+            }
+        }
+        .Content {
+            align-self: center;
+            justify-self: center;
+            width: 60%;
+            color: rgb(48, 48, 48);
+        }
+    }
+}

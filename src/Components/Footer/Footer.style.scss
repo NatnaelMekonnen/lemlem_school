@@ -1,0 +1,17 @@
+.Footer {
+    background-color: #89c9bb50;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5ch;
+    h2 {
+        color: #89c9bb;
+    }
+    .SocialIcons {
+        display: flex;
+        gap: 2ch;
+    }
+    .PhoneInfo{
+        display: flex;
+        gap: 1ch;
+    }
+}
